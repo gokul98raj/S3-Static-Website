@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "var.region"
-  access_key = "var.access_key"
-  secret_key = "var.secret_key"
+  access_key = "PROVIDE_YOUR_KEY"
+  secret_key = "PROVIDE_YOUR_KEY"
 }
 
 resource "random_string" "random" {
